@@ -19,3 +19,5 @@ npm run start
 ```
 http://localhost:1337/
 ```
+
+ > Optional: You can minify the CSS file with running the command in a cmd after the initial setup - **gulp minify-css**
