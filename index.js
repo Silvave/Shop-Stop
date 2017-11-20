@@ -1,7 +1,7 @@
 const config = require('./config/config')
 const database = require('./config/database.config')
 const express = require('express')
-const port = 3000
+const port = 1337
 
 let app = express()
 let enviroment = process.env.NODE_ENV || 'development'

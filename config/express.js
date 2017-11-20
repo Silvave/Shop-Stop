@@ -32,11 +32,11 @@ module.exports = (app, config) => {
 
   // Configure "public" folder
   app.use((req, res, next) => {
-    if (req.url.startsWith('/content')) {
-      req.url = req.url.replace('/content', '')
-    }
+      if (req.url.startsWith('/content')) {
+        req.url = req.url.replace('/content', '')
+      }
 
-    next()
+      next()
     },
     express.static(
       path.normalize(
